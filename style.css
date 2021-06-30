@@ -1,0 +1,142 @@
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .0em; /* Adjust as needed */
+    animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+  
+  
+  body {
+    background: #F0F0F0;
+  }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .main {
+    padding-top: 75px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    background-color: #222831;
+    color: #EEEEEE;
+    height: 100%;
+  }
+
+  .container {
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: blue; }
+  }
+
+.profil-img {
+      width: auto;
+      height: 100%;
+      text-align: center;
+      align-content: center;
+  }
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 0;
+    padding: 0;
+}
+
+.social-list__item {
+    margin: 0.5em;
+}
+
+.social-list__link {
+    padding: .6em;
+}
+
+.social-list__link:hover {
+    opacity: .7;
+}
+
+.menu {
+  font-family: 'Oswald', sans-serif;
+  font-size: small;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 500px) {
+  .menu {
+      font-size: x-small;
+  }
+}
+
+.boxes {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  padding: 3rem;
+  margin: 1em;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: #EEEEEE;
+ } 
+
+.skills-container {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  height: 100%;
+}
+
+.skillset >img {
+  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+  text-align: center;
+  padding: 2.5em 0;
+}
+
+.footer a { 
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__link {
+  font-weight: bold;
+}
+
+.footer__link:hover,
+.social-list__link:hover {
+  opacity: .7;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
