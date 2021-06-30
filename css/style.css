@@ -106,7 +106,7 @@ html {
   color: #EEEEEE;
  } 
 
-.skills-container {
+.skills-container, .work-container {
   margin: auto;
   width: 100%;
   text-align: center;
@@ -114,8 +114,10 @@ html {
   height: 100%;
 }
 
-.skillset >img {
+.skillset >img, .workset >img {
   box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 70%;
+  height: auto;
 }
 
 .footer {
